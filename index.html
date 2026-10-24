@@ -41,3 +41,82 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAB EdTech Studio | Interactive Videos for Teachers</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8fafc; color: #1e293b; line-height: 1.6; }
+        header { background: #1e3a8a; color: white; padding: 2rem 1rem; text-align: center; }
+        header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.1rem; opacity: 0.9; }
+        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; text-align: center; }
+        .card { background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); margin-top: 1.5rem; }
+        
+        /* Video Responsive Container */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            margin-top: 1rem;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .btn { display: inline-block; background: #2563eb; color: white; padding: 0.8rem 1.8rem; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 1.5rem; transition: background 0.2s; }
+        .btn:hover { background: #1d4ed8; }
+        footer { margin-top: 4rem; padding: 1.5rem; text-align: center; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DAB EdTech Studio</h1>
+        <p>Interactive Video Lessons & Learning Materials for Educators</p>
+    </header>
+
+    <div class="container">
+        <!-- VIDEO DEMO SECTION -->
+        <div class="card">
+            <h2>Watch a Quick Preview 🎥</h2>
+            <p style="margin-top: 0.5rem; color: #64748b;">See how our interactive lessons keep students engaged.</p>
+            
+            <div class="video-container">
+                <!-- Palitan ang src na ito ng YouTube embed link mo -->
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="DAB EdTech Interactive Video Preview" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- CALL TO ACTION SECTION -->
+        <div class="card">
+            <h2>Ready to Upgrade Your Classroom? 🍎</h2>
+            <p style="margin-top: 1rem;">
+                Crafted by IT & EdTech Specialist <strong>Dwight Anthony Bugaring</strong>.
+            </p>
+            <a href="https://payhip.com" target="_blank" class="btn">Explore Interactive Lessons</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 DAB EdTech Studio. Created & Developed by Dwight Anthony Bugaring.
+    </footer>
+
+</body>
+</html>
